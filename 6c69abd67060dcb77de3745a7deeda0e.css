@@ -1,0 +1,330 @@
+/* compact [
+	prive/spip_style.css
+	extensions/porte_plume/css/barre_outils.css
+	page=barre_outils_icones.css
+	page=forms_styles.css
+	plugins/socialtags/socialtags.css
+	lib/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css
+	page=lm2_player.css
+] 88.7% */
+
+/* prive/spip_style.css */
+h3.spip{text-align:center;margin-top:2em;margin-bottom:1.4em;font-size:1.15em;font-weight:bold;}
+hr.spip{margin:2em auto;}
+ol.spip{list-style:decimal;}
+blockquote.spip{margin:2em 0;margin-left:1em;padding-left:1em;border-left:1px dotted #aaa;}
+blockquote.spip_poesie{margin:2em 0;margin-left:1em;padding-left:1em;border-left:1px solid #aaa;}
+blockquote.spip_poesie div{text-indent:-3em;margin-left:3em;}
+.spip_code,.spip_cadre{font-family:Courier,"Courier New",monospace;color:#036;}
+.spip_cadre{width:99%;background-color:#F4F8F8;border:1px inset;font-size:inherit;}
+div.spip_code,.spip_cadre{margin-bottom:1em;}
+.spip_surligne{background:#FF6;}
+table.spip{max-width:99%;margin-right:auto;margin-left:auto;margin-bottom:1em;border-collapse:collapse;border-spacing:0;line-height:normal;}
+table.spip caption{caption-side:top;text-align:center;margin-right:auto;margin-left:auto;font-weight:bold;}
+table.spip tr.row_first{background:#FFC;}
+table.spip tr.row_odd{background:#EEE;}
+table.spip tr.row_even{background:#DDD;}
+table.spip th,table.spip td{padding:0.20em 0.40em;text-align:left;border:1px solid;}
+table.spip th{vertical-align:bottom;font-weight:bold;}
+table.spip td{vertical-align:top;}
+table.spip td.numeric{text-align:right;}
+img,.spip_logos{margin:0;padding:0;border:0;}
+.spip_documents{text-align:center;line-height:normal;}
+.spip_documents p{margin:0.10em;padding:0;}
+.spip_documents_center{display:block;clear:both;width:100%;margin:1em auto;}
+.spip_documents_left{float:left;margin-right:15px;margin-bottom:5px;}
+.spip_documents_right{float:right;margin-left:15px;margin-bottom:5px;}
+.spip_doc_titre{margin-right:auto;margin-left:auto;font-weight:bold;font-size:0.90em;}
+.spip_doc_descriptif{clear:both;margin-right:auto;margin-left:auto;font-size:0.90em;}
+.spip_modele{float:right;display:block;padding:1em;border:1px solid;width:180px;}
+
+
+a.spip_mail{color:#900;}
+a.spip_mail:before{content:"\002709";}
+a.spip_out{color:#009;}
+a.spip_url{color:#009;}
+a.spip_glossaire{color:#060;}
+a.spip_glossaire:hover{text-decoration:underline overline;}
+.on{font-weight:bold;}
+
+/* extensions/porte_plume/css/barre_outils.css */
+.markItUp .markItUpHeader a,.markItUp .markItUpTabs a,.markItUp .markItUpFooter a{color:#000;text-decoration:none;}
+.markItUp{margin:5px 0 5px 0;clear:both;}
+.markItUp .markItUpContainer{margin:0px;padding:0px;}
+.markItUp .markItUpEditor{clear:both;display:block;overflow:auto;}
+#text_area{height:300px;}
+.markItUp .markItUpFooter{margin:0px;padding:0px;width:100%;}
+.markItUp .markItUpResizeHandle{overflow:hidden;width:22px;height:5px;margin-left:auto;margin-right:auto;background-image:url("https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/css/images/handle.png");cursor:ns-resize;}
+.markItUp .markItUpTabs{text-align:right;padding:1px 1px 0;margin-bottom:-1px;margin-top:3px;overflow:hidden;width:auto;float:right;margin-right:30px;clear:both;}
+.markItUp .markItUpTabs a{display:block;float:right;border:1px solid #ccc;margin:0px 1px;padding:3px 4px 2px 4px;background:#f0f0f0;}
+.markItUp .markItUpTabs a.on{background:#fff;border-bottom:1px solid #fff;}
+.markItUp .markItUpTabs a:hover{background:#fff;}
+.markItUp .markItUpPreview{clear:both;border:1px solid #ccc;background:#fff;overflow:auto;padding:1em;}
+.markItUp .preview p{margin-bottom:1em;}
+.markItUp .preview ul{margin-bottom:1em;margin-top:0.5em;}
+.markItUp .preview li{border:none;padding:1px;}
+.markItUp .preview .cadre ol,.markItUp .preview .cadre ul{padding:0.5em;}
+.markItUp .markItUpHeader{margin:0px;padding:0px;}
+.markItUp .markItUpHeader ul{margin:0 !important;padding:0;}
+.markItUp .markItUpHeader ul li{list-style:none;float:left;position:relative;clear:none;border:0;margin:0;padding:0;overflow:visible;}
+.markItUp .markItUpHeader ul li:first-child{padding-top:0;}
+.markItUp .markItUpHeader ul .markItUpDropMenu li{margin-right:0px;background-color:#eee;padding:1px 0px 1px 1px;}
+.markItUp .markItUpHeader ul ul{display:none;position:absolute;top:24px;left:-1px;width:150px;z-index:2;padding-top:2px;}
+.markItUp .markItUpHeader ul ul li{float:left;}
+.markItUp .markItUpHeader ul ul .markItUpDropMenu{background:#F5F5F5 url("https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/css/images/submenu.png") no-repeat 50% 50%;}
+.markItUp .markItUpHeader ul .markItUpSeparator{margin:0 6px;width:0px;height:16px;overflow:hidden;}
+.markItUp .markItUpHeader ul ul .markItUpSeparator{width:auto;height:1px;margin:0px;}
+.markItUp .markItUpHeader ul a{display:block;background-color:#f5f5f5;border:1px solid #ccc;padding:3px;margin-right:1px;}
+.markItUp .markItUpHeader ul a b{display:block;background-repeat:no-repeat;width:16px;height:16px;text-indent:-10000px;}
+.markItUp .markItUpHeader ul a:hover{border:1px solid #888;background-color:#fff;}
+
+/* page=barre_outils_icones.css */
+.markItUp .outil_header1 a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -226px}
+.markItUp .outil_bold a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -478px}
+.markItUp .outil_italic a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -586px}
+.markItUp .outil_stroke_through a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -946px}
+.markItUp .outil_liste_ul a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -622px}
+.markItUp .outil_liste_ol a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -658px}
+.markItUp .outil_indenter a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -514px}
+.markItUp .outil_desindenter a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -550px}
+.markItUp .outil_quote a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -442px}
+.markItUp .outil_link a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -298px}
+.markItUp .outil_notes a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -334px}
+.markItUp .outil_guillemets a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -910px}
+.markItUp .outil_guillemets_simples a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -802px}
+.markItUp .outil_guillemets_de a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -766px}
+.markItUp .outil_guillemets_de_simples a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -838px}
+.markItUp .outil_guillemets_uniques a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -874px}
+.markItUp .outil_caracteres a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -262px}
+.markItUp .outil_a_maj_grave a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -82px}
+.markItUp .outil_e_maj_aigu a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -154px}
+.markItUp .outil_e_maj_grave a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -190px}
+.markItUp .outil_aelig a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -46px}
+.markItUp .outil_aelig_maj a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -10px}
+.markItUp .outil_oe a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -406px}
+.markItUp .outil_oe_maj a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -370px}
+.markItUp .outil_ccedil_maj a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -118px}
+.markItUp .outil_uppercase a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -730px}
+.markItUp .outil_lowercase a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -694px}
+.markItUp .outil_clean a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -982px}
+.markItUp .outil_preview a b{background-image:url(https://www.lespetitsdebrouillardspaca.org/extensions/porte_plume/icones_barre/spt-v1.png);background-position:-10px -1018px}
+.ajaxLoad{background:white url('https://www.lespetitsdebrouillardspaca.org/plugins/crayons/images/searching.gif') top left no-repeat;}
+
+/* page=forms_styles.css */
+.spip_forms form label{float:none;}
+.spip_forms h2{margin:.2em;color:#543E29;}
+.spip_forms{color:black;margin:0px;margin-bottom:16px;padding:6px;font-family:Verdana,Arial,Helvetica,sans-serif;font-weight:normal;border-left:3px solid #963;}
+.spip_forms form{border:0;margin:0;padding:.5em 0 0 0;}
+.spip_forms div.spip_descriptif{border:0;margin:0;clear:both;}
+.spip_forms h3{float:none;text-align:left;}
+.spip_forms legend{font-size:1.15em;padding:5px;}
+.spip_forms .spip_form_champ{margin-bottom:0;display:block;clear:both;margin-top:1em;}
+.spip_forms .spip_form_label{font-weight:bold;text-align:left;color:#494949;display:block;}
+.spip_forms .spip_form_label label,.spip_forms .spip_form_label .label{text-align:left;font-weight:bold;color:#494949;}
+.spip_forms .spip_form_label_obligatoire{font-weight:normal;font-style:italic;font-size:.9em;}
+.spip_forms .obligatoire_oublie{color:red;}
+.spip_forms .spip_form_label_details{display:block;font-style:italic;text-align:left;}
+.spip_forms .spip_form_choix_multiple{display:block;}
+.spip_forms .spip_form_choix_unique input,.spip_forms .spip_form_choix_unique input.fondo,.spip_forms .spip_form_choix_unique input.fondl{width:auto;}
+.spip_forms .spip_form_choix_unique label{margin:0 0 5px 0;}
+.spip_forms .spip_form_choix_multiple input,.spip_forms .spip_form_choix_multiple input.fondo,.spip_forms .spip_form_choix_multiple input.fondl,ul.choix_mots li input{width:auto;margin:0 5px 0 0;}
+.spip_forms ul.choix_mots,.spip_forms ul.spip_form_choix_multiple,.spip_forms ul.spip_form_choix_unique{list-style:none;float:left;padding-left:5px;width:45%;}
+.spip_forms .spip_sondage{margin:auto;}
+.spip_forms .spip_form_erreur{font-weight:bold;color:red;}
+.spip_forms .spip_form_ok{font-weight:bold;background:#262626;color:#F1F1F1;margin:1em 0 0 0;padding:.6em;}
+.spip_forms .spip_form_ok a{color:#FFF9E2;}
+.spip_forms .spip_form_ok a:hover{color:#DEB55E;}
+.spip_forms .spip_form_ok_confirmation{display:block;}
+.spip_forms .spip_sondage strong{display:block;clear:both;margin-left:5px;color:#494949;}
+.spip_forms .spip_sondage .ligne_nom{width:19%;text-align:right;padding-right:1%;}
+.spip_forms .spip_sondage .ligne_nom:after{content:":";}
+.spip_forms .spip_sondage .ligne.chiffres{color:#525252;}
+.spip_forms .spip_sondage .ligne_barre{height:16px;background:url("https://www.lespetitsdebrouillardspaca.org/ligne.gif") repeat-x;border:1px solid black;width:80%;}
+.spip_forms .spip_sondage .sondage_table{display:table;width:100%;}
+.spip_forms .spip_sondage .sondage_ligne{display:table-row;}
+.spip_forms .spip_sondage .sondage_ligne > div{display:table-cell;vertical-align:middle;padding:2px;white-space:nowrap;}
+.spip_forms .forml,.spip_forms .formo{width:85%;border-bottom:solid 1px #E2CEC1;border-right:solid 1px #E2CEC1;border-top:1px solid #AF896F;border-left:1px solid #AF896F;font-size:1em;padding:.25em;}
+.spip_forms .forml,.spip_forms .fondl{background:#FFFDE7;color:#4A4336;width:85%;}
+.spip_forms .formo,.spip_forms .fondo{background-color:white;color:#4A4336;width:85%;}
+.spip_forms .champ_obli_oubli{border:2px solid red;}
+.spip_forms form .forml-focus,.spip_forms form input.forml-focus:focus,.spip_forms form textarea.forml-focus:focus,.forml-focus{border-bottom:solid 1px #C9AB97;border-right:solid 1px #C9AB97;border-top:1px solid #81593E;border-left:1px solid #81593E;background:#FFF2C8;color:#433817;font-weight:normal;font-size:1em;padding:.25em;width:85%;}
+.spip_forms form .formo-focus,.spip_forms form input.formo-focus:focus,.spip_forms form textarea.formo-focus:focus,.spip_forms .formo-focus{border-bottom:solid 1px #C9AB97;border-right:solid 1px #C9AB97;border-top:1px solid #81593E;border-left:1px solid #81593E;background:#FFF9EE;color:#433817;font-weight:normal;font-size:1em;padding:.25em;width:85%;}
+.spip_forms form .champ_obli_oubli-focus,form input.champ_obli_oubli-focus:focus,form textarea.champ_obli_oubli-focus:focus{border-top:solid 2px #980F1B;border-left:solid 2px #980F1B;border-bottom:2px solid #F3192B;border-right:2px solid #F3192B;background:#FFF2C8;color:#4D161B;font-weight:normal;font-size:1em;padding:.25em;}
+.spip_forms .spip_bouton input{border:1px solid #563033;cursor:pointer;padding:.4em;background:#F0E6DC;font-family:Verdana,Arial,Helvetica,sans-serif;font-weight:bold;font-size:1em;width:100px;color:#4A4336;}
+.spip_forms fieldset{border:1px none #8F8181;padding:.4em .4em .4em 1em;margin:.5em 0 .5em 0;border-top-style:dashed;border-left:6px solid #c96;border-top-color:#c96;}
+.spip_forms a.resultats_sondage{display:block;float:right;background:#FFFBED;color:#444040;padding:.2em;border:1px solid #A07D7A;text-decoration:none;}
+.spip_forms a.resultats_sondage:hover{background:#444040;color:#F8F5EC;text-decoration:none;}
+.spip_forms p.spip_form_ok,.spip_forms p.spip_form_erreur,.spip_forms form{clear:both;}
+span.nettoyeur{clear:both;line-height:1px;font-size:1px;display:block;}
+span.erreur{display:block;}
+span.donnees{display:block;border-left:5px solid #999;padding-left:1em;padding-top:1em;border-bottom:1px dashed #666;padding-bottom:0.4em;overflow:hidden;}
+span.donnee-champ{display:block;clear:left;}
+span.donnee-champ-label{width:150px;display:block;float:left;}
+span.donnee-champ-data{display:block;margin-left:160px;}
+span.nettoyeur{clear:both;}
+div.liste{clear:both;width:auto;}
+.highlight{background-color:#3D3D3D;font-weight:bold;}
+.donnees th{vertical-align:middle;background-repeat:no-repeat;border-left:1px solid #FFF;border-right:1px solid #000;border-top:1px solid #FFF;height:auto;padding:0px;margin:0px;height:34px;}
+.donnees th.neutre{padding-left:0px;background:url("https://www.lespetitsdebrouillardspaca.org/plugins/forms_et_tables_2_0/img_pack/header.png") repeat-x left bottom;}
+.donnees th.header{padding-left:15px;background:url("https://www.lespetitsdebrouillardspaca.org/plugins/forms_et_tables_2_0/img_pack/header-bg.png") no-repeat left bottom;}
+.donnees th.headerSortUp{padding-left:15px;background:url("https://www.lespetitsdebrouillardspaca.org/plugins/forms_et_tables_2_0/img_pack/header-asc.png") no-repeat left bottom;}
+.donnees th.headerSortDown{padding-left:15px;background:url("https://www.lespetitsdebrouillardspaca.org/plugins/forms_et_tables_2_0/img_pack/header-desc.png") no-repeat left bottom;}
+.donnees td .numerique{width:100%;text-align:right;display:block;}
+#sorting div{font-weight:bold;}
+#filter{text-align:left;width:auto;padding:5px;background-color:transparent;border:1px solid #888;display:none;float:right;}
+#filter p{text-align:left;padding:5px;margin:0px;float:left;}
+#filter div{text-align:center;float:left;}
+.filterIcon{width:20px;height:16px;text-align:center;background:url("https://www.lespetitsdebrouillardspaca.org/plugins/forms_et_tables_2_0/filter.gif") no-repeat center left;float:right;cursor:pointer;}
+.sorter{padding-right:10px;text-decoration:underline;cursor:pointer;float:left;}
+div.puce_forms_donnee{position:relative;height:11px;width:11px;}
+div.puce_forms_donnee_fixe{position:absolute;}
+div.puce_forms_donnee_popup{position:absolute;visibility:hidden;margin-top:-1px;top:0;border:1px solid #666;background-color:#ccc;z-index:10;}
+div.puce_forms_donnee_popup img{padding:1px;border:none;}
+div.puce_forms_donnee_popup{width:45px;}
+a.date-picker{width:26px;height:26px;border:none;color:#fff;padding:0;margin:0;float:left;overflow:hidden;cursor:pointer;background:url("https://www.lespetitsdebrouillardspaca.org/plugins/forms_et_tables_2_0/img_pack/select_day_26.gif") no-repeat;}
+a.date-picker span{margin:0 0 0 -2000px;}
+div.date-picker-holder{position:relative;}
+div.date-picker-holder input{float:left;}
+div.popup-calendar *{margin:0;padding:0;}
+div.popup-calendar{display:none;position:absolute;z-index:2;top:0;left:-16px;padding:4px;border:2px solid #000;background:#fff;color:#000;overflow:hidden;width:163px;font-size:0.8em;}
+html>body div.popup-calendar{left:99px;}
+div.popup-calendar iframe{display:none;display:block;position:absolute;top:0;left:0;z-index:-1;filter:mask();width:3000px;height:3000px;}
+div.popup-calendar div.link-close{float:right;}
+div.popup-calendar div.link-prev{float:left;}
+div.popup-calendar h3{font-size:1.1em;font-weight:bold;margin:2px 0 5px 3px;}
+div.popup-calendar div.link-next{float:right;}
+div.popup-calendar div a{padding:1px 2px;color:#000;}
+div.popup-calendar div a:hover{background-color:#000;color:#fff;}
+div.popup-calendar table{margin:0;}
+* html div.popup-calendar table{display:inline;}
+div.popup-calendar table th,div.popup-calendar table td{background:#eee;width:21px;height:17px;text-align:center;}
+div.popup-calendar table td.inactive{color:#aaa;padding:1px 0 0;}
+div.popup-calendar table td a{display:block;border:1px solid #eee;width:19px;height:15px;text-decoration:none;color:#333;}
+div.popup-calendar table td.today a{border-color:#aaa;}
+div.popup-calendar table td a.selected,div.popup-calendar table td a:hover{background:#333;color:#fff;}
+.formInfo a,.formInfo a:active,.formInfo a:visited{background-color:#f66;font-size:1.3em;font-weight:bold;padding:1px 2px;margin-left:5px;color:#FFF;text-decoration:none;float:right;}
+.formInfo a:hover{color:#600;text-decoration:none;}
+#JT_arrow_left{background-image:url("https://www.lespetitsdebrouillardspaca.org/plugins/forms_et_tables_2_0/img_pack/arrow_left.gif");background-repeat:no-repeat;background-position:left top;position:absolute;z-index:101;left:-12px;height:23px;width:10px;top:-3px;}
+#JT_arrow_right{background-image:url("https://www.lespetitsdebrouillardspaca.org/plugins/forms_et_tables_2_0/img_pack/arrow_right.gif");background-repeat:no-repeat;background-position:left top;position:absolute;z-index:101;height:23px;width:11px;top:-2px;}
+#JT{position:absolute;z-index:100;border:2px solid #CCC;background-color:#fff;}
+#JT_copy{padding:10px 10px 10px 10px;color:#333;}
+.JT_loader{background-image:url("https://www.lespetitsdebrouillardspaca.org/plugins/forms_et_tables_2_0/img_pack/loader.gif");background-repeat:no-repeat;background-position:center center;width:100%;height:12px;}
+#JT_close_left{background-color:#CCC;text-align:left;padding-left:8px;padding-bottom:5px;padding-top:2px;font-weight:bold;}
+#JT_close_right{background-color:#CCC;text-align:left;padding-left:8px;padding-bottom:5px;padding-top:2px;font-weight:bold;}
+#JT_copy p{margin:3px 0;}
+#JT_copy img{padding:1px;border:1px solid #CCC;}
+.jTip{cursor:help;}
+
+/* plugins/socialtags/socialtags.css */
+div.socialtags{margin:2px 0 0px 0;padding:0;clear:both;}
+.socialtags ul{display:inline;margin:0 !important;padding:0 !important;}
+.socialtags ul li{background:none;display:inline;list-style-type:none;margin:1px;padding:1px;}
+.socialtags img{float:none;width:auto;height:16px;border:0;margin:0;padding:0;}
+.socialtags-hovers{opacity:.4;filter:alpha(opacity=40);}
+.socialtags-hovers:hover{opacity:1;filter:alpha(opacity=100);}
+
+/* lib/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css */
+#fancybox-loading{position:fixed;top:50%;left:50%;width:40px;height:40px;margin-top:-20px;margin-left:-20px;cursor:pointer;overflow:hidden;z-index:1104;display:none;}
+#fancybox-loading div{position:absolute;top:0;left:0;width:40px;height:480px;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png");}
+#fancybox-overlay{position:absolute;top:0;left:0;width:100%;z-index:1100;display:none;}
+#fancybox-tmp{padding:0;margin:0;border:0;overflow:auto;display:none;}
+#fancybox-wrap{position:absolute;top:0;left:0;padding:20px;z-index:1101;outline:none;display:none;}
+#fancybox-outer{position:relative;width:100%;height:100%;background:#fff;}
+#fancybox-content{width:0;height:0;padding:0;outline:none;position:relative;overflow:hidden;z-index:1102;border:0px solid #fff;}
+#fancybox-hide-sel-frame{position:absolute;top:0;left:0;width:100%;height:100%;background:transparent;z-index:1101;}
+#fancybox-close{position:absolute;top:-15px;right:-15px;width:30px;height:30px;background:transparent url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png") -40px 0px;cursor:pointer;z-index:1103;display:none;}
+#fancybox-error{color:#444;font:normal 12px/20px Arial;padding:14px;margin:0;}
+#fancybox-img{width:100%;height:100%;padding:0;margin:0;border:none;outline:none;line-height:0;vertical-align:top;}
+#fancybox-frame{width:100%;height:100%;border:none;display:block;}
+#fancybox-left,#fancybox-right{position:absolute;bottom:0px;height:100%;width:35%;cursor:pointer;outline:none;background:transparent url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/blank.gif");z-index:1102;display:none;}
+#fancybox-left{left:0px;}
+#fancybox-right{right:0px;}
+#fancybox-left-ico,#fancybox-right-ico{position:absolute;top:50%;left:-9999px;width:30px;height:30px;margin-top:-15px;cursor:pointer;z-index:1102;display:block;}
+#fancybox-left-ico{background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png");background-position:-40px -30px;}
+#fancybox-right-ico{background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png");background-position:-40px -60px;}
+#fancybox-left:hover,#fancybox-right:hover{visibility:visible;}
+#fancybox-left:hover span{left:20px;}
+#fancybox-right:hover span{left:auto;right:20px;}
+.fancybox-bg{position:absolute;padding:0;margin:0;border:0;width:20px;height:20px;z-index:1001;}
+#fancybox-bg-n{top:-20px;left:0;width:100%;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox-x.png");}
+#fancybox-bg-ne{top:-20px;right:-20px;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png");background-position:-40px -162px;}
+#fancybox-bg-e{top:0;right:-20px;height:100%;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox-y.png");background-position:-20px 0px;}
+#fancybox-bg-se{bottom:-20px;right:-20px;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png");background-position:-40px -182px;}
+#fancybox-bg-s{bottom:-20px;left:0;width:100%;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox-x.png");background-position:0px -20px;}
+#fancybox-bg-sw{bottom:-20px;left:-20px;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png");background-position:-40px -142px;}
+#fancybox-bg-w{top:0;left:-20px;height:100%;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox-y.png");}
+#fancybox-bg-nw{top:-20px;left:-20px;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png");background-position:-40px -122px;}
+#fancybox-title{font-family:Helvetica;font-size:12px;z-index:1102;}
+.fancybox-title-inside{padding-bottom:10px;text-align:center;color:#333;background:#fff;position:relative;}
+.fancybox-title-outside{padding-top:10px;color:#fff;}
+.fancybox-title-over{position:absolute;bottom:0;left:0;color:#FFF;text-align:left;}
+#fancybox-title-over{padding:10px;background-image:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancy_title_over.png");display:block;}
+.fancybox-title-float{position:absolute;left:0;bottom:-20px;height:32px;}
+#fancybox-title-float-wrap{border:none;border-collapse:collapse;width:auto;}
+#fancybox-title-float-wrap td{border:none;white-space:nowrap;}
+#fancybox-title-float-left{padding:0 0 0 15px;background:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png") -40px -90px no-repeat;}
+#fancybox-title-float-main{color:#FFF;line-height:29px;font-weight:bold;padding:0 0 3px 0;background:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox-x.png") 0px -40px;}
+#fancybox-title-float-right{padding:0 0 0 15px;background:url("https://www.lespetitsdebrouillardspaca.org/lib/jquery.fancybox-1.3.4/fancybox/fancybox.png") -55px -90px no-repeat;}
+.fancybox-ie6 #fancybox-close{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_close.png',sizingMethod='scale');}
+.fancybox-ie6 #fancybox-left-ico{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_nav_left.png',sizingMethod='scale');}
+.fancybox-ie6 #fancybox-right-ico{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_nav_right.png',sizingMethod='scale');}
+.fancybox-ie6 #fancybox-title-over{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_over.png',sizingMethod='scale');zoom:1;}
+.fancybox-ie6 #fancybox-title-float-left{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_left.png',sizingMethod='scale');}
+.fancybox-ie6 #fancybox-title-float-main{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_main.png',sizingMethod='scale');}
+.fancybox-ie6 #fancybox-title-float-right{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_right.png',sizingMethod='scale');}
+.fancybox-ie6 #fancybox-bg-w,.fancybox-ie6 #fancybox-bg-e,.fancybox-ie6 #fancybox-left,.fancybox-ie6 #fancybox-right,#fancybox-hide-sel-frame{height:expression(this.parentNode.clientHeight + "px");}
+#fancybox-loading.fancybox-ie6{position:absolute;margin-top:0;top:expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2:document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop:document.body.scrollTop )) + 'px');}
+#fancybox-loading.fancybox-ie6 div{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_loading.png',sizingMethod='scale');}
+.fancybox-ie .fancybox-bg{background:transparent !important;}
+.fancybox-ie #fancybox-bg-n{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_n.png',sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-ne{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_ne.png',sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-e{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_e.png',sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-se{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_se.png',sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-s{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_s.png',sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-sw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_sw.png',sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-w{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_w.png',sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-nw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_nw.png',sizingMethod='scale');}
+
+/* page=lm2_player.css */
+#sm2_player{margin:10px 0px 0;padding:0px;font-size:1em;color:#999;position:relative;}
+#sm2_player .button{float:left;width:32px;height:32px;cursor:pointer;vertical-align:middle;}
+#sm2-container{position:relative;background-color:#000;}
+#sm2_cover{background-color:#000;width:100%;height:100%;position:absolute;cursor:pointer;}
+#sm2_cover.sm2_cover_paused{background:#000 url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-playback-pause.png) no-repeat 50% 50%;}
+#sm2_player .play{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-playback-start.png);}
+#sm2_player .play:hover{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-playback-start.png);}
+#sm2_player .next{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-skip-forward.png);}
+#sm2_player .next:hover{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-skip-forward.png);}
+#sm2_player .prev{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-skip-backward.png);}
+#sm2_player .prev:hover{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-skip-backward.png);}
+#sm2_player .pause{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-playback-pause.png);display:none;}
+#sm2_player .pause:hover{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-playback-pause.png);}
+#sm2_player .stop{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-playback-stop.png);}
+#sm2_player .stop:hover{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/media-playback-stop.png);}
+#sm2_player .volume{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/audio-volume-high.png);}
+#sm2_player .volume:hover{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/audio-volume-high.png);}
+#sm2_player .mute{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/audio-volume-muted.png);display:none;}
+#sm2_player .mute:hover{background-image:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/tango/audio-volume-muted.png);display:none;}
+.sm2_timer{border:1px solid #999;padding:3px 5px;float:right;margin:3px 0;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;font-family:monaco,"VT-100",terminal,"lucida console",courier,system;}
+.controles{cursor:hand;cursor:pointer;text-align:right;margin-bottom:5px;}
+ul.playliste{list-style-type:none;padding:0;margin:0;border:1px solid #ccc;clear:both;background-color:#fff;}
+#sm2_player a,#sm2_player a:hover{text-decoration:none;color:#999;cursor:pointer;}
+ul.playliste li{padding:3px 5px;margin:0;cursor:pointer;}
+ul.playliste li.sm2_play_on{background:#e6e6e6;}
+ul.playliste li a{display:block;}
+ul.playliste li.over{background:#e6e6e6;}
+.playliste_pagination{margin:5px 0px 0px 0px;border:1px solid #ccc;}
+#sm2_scrollbar{clear:both;height:10px;margin:5px 0px 0;border:1px solid #999;background-color:white;position:relative;}
+#sm2_scrollbar .sm2_jump_position{background-color:#e74455;color:#fff;border:1px solid #ccc;position:absolute;top:-16px;width:4em;z-index:30;text-align:center;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;font-family:monaco,"VT-100",terminal,"lucida console",courier,system;display:none;}
+#sm2_loading{height:10px;background-color:#ccc;width:0%;position:absolute;left:0px;top:0px;font-size:0.3em;z-index:10;cursor:pointer;}
+#sm2_position{height:10px;background-color:#e74455;width:0%;position:absolute;left:0px;top:0px;font-size:0.3em;z-index:20;cursor:pointer;}
+div#now_playing{width:120px;height:13px;text-align:left;}
+#scroller_container{position:relative;float:left;width:120px;height:13px;overflow:hidden;border:1px solid #ccc;}
+#scroller{width:120px;height:13px;position:absolute;left:0;top:0;margin:0;} #liste_de_lecture_principale{margin:0px 0px 30px 0px;} #liste_lecture{display:none;} a.sm2_link{display:inline-block;font-weight:bold;min-height:16px;min-width:19em;padding:0 3px 0 20px;background:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/playl.gif) no-repeat 0% 50%;} a.sm2_playing{background:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/pausel.gif) no-repeat 0% 50%;} a.sm2_playing:hover{background:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/pausel.gif) no-repeat 0% 50%;} a.sm2_paused{background:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/playl.gif) no-repeat 0% 50%;} a.sm2_paused:hover{background:url(https://www.lespetitsdebrouillardspaca.org/plugins/lecteur_multimedia_v2/skins/playl.gif) no-repeat 0% 50%;}
+.spip_documents .spip_doc_download{margin-top:5px;}
+.spip_documents .spip_doc_download img{vertical-align:text-top;}
+.spip_documents_center .sm2-360ui{float:none;}
+.spip_documents .ui360 a{line-height:2em;background:none;}
+.spip_documents .ui360{margin-bottom:0;}
+.spip_documents a.sm2_link{min-width:inherit;min-height:inherit;}
+

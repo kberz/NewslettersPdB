@@ -1,0 +1,24 @@
+élément {
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+body {
+    background: #F60;
+    color: #333;
+}
+body {
+    background: #F60;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    font-size: 0.8125em;
+    font-family: "Luxi sans","Lucida Grande",Lucida,"Lucida Sans Unicode",sans-serif;
+    color: #333;
+}
+html {
+    font-size: 100%;
+}
